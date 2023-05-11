@@ -217,6 +217,7 @@ body{
 
     		<!---Gender----->
         <?php
+		$gender = '';     
         if(isset($_SESSION['old_gender'])){
           $gender = $_SESSION['old_gender'];
         }
